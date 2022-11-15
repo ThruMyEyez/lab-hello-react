@@ -1,0 +1,45 @@
+.hero-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .hero-div {
+    width: 100vh;
+    height: 40vh;
+    padding: 0 3rem 3rem 3rem;
+    background-color: #1f2535;
+    background-image: linear-gradient(160deg, #1f2535 0%, #3e5994 100%);
+    nav {
+      padding: 10px 0;
+      height: 100px;
+      .page-logo {
+        float: left;
+      }
+      .menu-btn {
+        float: right;
+        padding: 12px;
+      }
+    }
+    .hero-main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: azure;
+      a {
+        text-decoration: none;
+        font-size: 2rem;
+        background-color: azure;
+        border-radius: 3px;
+        color: #282c34;
+        margin-top: 2rem;
+        padding: 0.6rem 1rem;
+      }
+    }
+  }
+  section {
+    width: 100vh;
+    display: flex;
+    gap: 50px;
+    color: #282c34;
+  }
+}
